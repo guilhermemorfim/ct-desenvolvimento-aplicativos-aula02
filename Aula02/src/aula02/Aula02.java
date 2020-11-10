@@ -20,6 +20,7 @@ public class Aula02 {
         
         Pessoa p1 = new Pessoa("Guilherme", 30, 1.74);
         Pessoa p2 = p1;
+        Pessoa p3 = p2;
 
     }
     
