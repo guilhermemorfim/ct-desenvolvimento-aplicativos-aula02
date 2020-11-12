@@ -10,7 +10,7 @@ package model;
  * @author SESI_SENAI
  */
 public class Pessoa {
-    
+
     private String nome;
     private int idade;
     private double altura;
@@ -44,11 +44,13 @@ public class Pessoa {
     public void setAltura(double altura) {
         this.altura = altura;
     }
-    
-    public void andar(){
+
+    public void andar() {
         System.out.println("Andei");
     }
-    
-    
-    
+
+    public void parar() {
+        System.out.println("Parei");
+    }
+
 }
