@@ -45,6 +45,10 @@ public class Pessoa {
         this.altura = altura;
     }
     
+    public void andar(){
+        System.out.println("Andei");
+    }
+    
     
     
 }
